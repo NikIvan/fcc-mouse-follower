@@ -1,11 +1,8 @@
 const path = require('path');
-const https = require('https');
 
 const HttpRouter = require('./lib/HttpRouter');
-const { sendFile, sendError } = require('./lib/responseHelpers');
+const { sendFile } = require('./lib/responseHelpers');
 const config = require('./config/config');
-
-const API_PREFIX = '/api/v1';
 
 const router = new HttpRouter();
 
