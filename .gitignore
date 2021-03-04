@@ -1,0 +1,8 @@
+/node_modules/*
+/public/main.js
+/public/main.js.map
+/public/index.html
+/public/vendors.js
+/public/vendors.js.map
+/.idea/workspace.xml
+.idea/*
